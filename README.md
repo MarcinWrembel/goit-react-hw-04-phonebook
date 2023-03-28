@@ -1,1 +1,3 @@
-# goit-react-hw-04-phonebook
+# goit-react-hw-02-phonebook
+
+https://marcinwrembel.github.io/goit-react-hw-02-phonebook/
