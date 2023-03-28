@@ -1,10 +1,8 @@
-import { Component } from 'react';
+
 import css from './ContactList.module.css';
 import PropTypes from 'prop-types';
 
-class ContactList extends Component {
-  render() {
-    const { contactsFiltered, remove } = this.props;
+const ContactList = ({ contactsFiltered, remove })=> {
 
     const liItems = contactsFiltered.map(item => {
       return (
@@ -18,7 +16,7 @@ class ContactList extends Component {
     });
 
     return <ul className={css.contactList}>{liItems}</ul>;
-  }
+
 }
 
 ContactList.propTypes = {
